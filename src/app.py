@@ -6,6 +6,8 @@ app.config.from_mapping(
     SECRET_KEY = 'development'
 )
 
+app.run()   #verificar se era isso que impedia de rodar
+
 
 app.add_url_rule(routes["cadastrar_route"], view_func=routes["cadastrarcontroller"])
 

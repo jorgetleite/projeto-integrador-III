@@ -2,8 +2,8 @@ from src.app import app
 
 
 
-HOST = 'localhost'
-PORT = 4000
+HOST = 'sql10.freemysqlhosting.net'
+PORT = 3306
 DEBUG = True
 
 if(__name__ == '__main__'):
